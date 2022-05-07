@@ -1,0 +1,32 @@
+.flex_container{
+    display: flex;
+}
+
+.description_price{
+    justify-content: space-around;
+}
+
+.description img{
+    width:15rem;
+    height:15rem;
+    padding: 2rem;
+   
+}
+
+.w-40{
+    width: 40vw;
+}
+.text_justify{
+    text-align:justify
+}
+.mt_1rem{
+    margin-top: 1rem;
+}
+
+.chart_container{
+        position: relative;
+        height: 15rem;
+        width: 40vw;
+        margin:  auto;
+        margin-top: 2rem;
+}
