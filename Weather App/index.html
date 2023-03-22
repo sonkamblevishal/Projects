@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Web App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+<div class="Main_container">    
+
+        <section class="top-banner">
+            <div class="container">
+                <h1 class="heading">Weather Web App</h1>
+                <form>
+                    <input type="text" placeholder="Search for a city" autofocus>
+                    <button type="submit" onclick="GetData();">SUBMIT</button>
+                    <span class="msg"></span>
+                </form>
+            </div>
+        </section>
+        <section class="ajax-section">
+            <div class="container">
+                <ul class="cities"></ul>
+            </div>
+        </section>
+        <footer class="page-footer">
+            <div class="container">
+                <small>Made with <span>❤</span> by <a href="https://github.com/sonkamblevishal" target="_blank">Vishal
+                        Sonkamble</a>
+                </small>
+            </div>
+        </footer>
+        
+</body>
+
+</html>
